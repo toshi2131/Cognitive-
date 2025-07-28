@@ -1,0 +1,155 @@
+{
+    "games": [
+        {
+            "instructions": ["Click the button as fast as you can!"],
+            "stringParams": [
+                "a",
+                "b",
+                "c"
+            ],
+            "intParams": [
+                1,
+                2,
+                3
+            ],
+            "boolParams": [],
+            "type": "fakeTest"
+        },
+        {
+            "instructions": [
+                "Please memorize these words.  Click the button when you're ready to proceed.",
+                "Please click on the words you just saw.",
+                "Good!  One more time.",
+                "Good!  Here's the list one last time.  Remember these for later.  We'll quiz you on it in a moment."
+            ],
+            "stringParams": [
+                "Man",
+                "Woman",
+                "Dog",
+                "Cat",
+                "House",
+                "Ball",
+                "Sky",
+                "Boy",
+                "Girl",
+                "Ground",
+                "Bird",
+                "Floor",
+                "Ceiling",
+                "Bicycle",
+                "Foot",
+                "Hand",
+                "Walk",
+                "Run",
+                "Time",
+                "Space"
+            ],
+            "intParams": [
+                10,
+                5
+            ],
+            "boolParams": [],
+            "type": "delayedRecallString"
+        },
+        {
+            "instructions": [
+                "We're going to play an addition game. Don't use paper, just your head!  Click Ok to continue.",
+                "Please add the following two numbers in your head:"
+            ],
+            "stringParams": [],
+            "intParams": [
+                30,
+                40,
+                15,
+                40,
+                3,
+                20,
+                5
+            ],
+            "boolParams": [],
+            "type": "addingProto"
+        },
+        {
+            "instructions": [
+                "We're going to show you a grid of numbers.  Quickly find the one that is different than the others.  Press Ok to begin.",
+                "Quickly find the number that doesn't belong:"
+            ],
+            "stringParams": [],
+            "intParams": [
+                10,
+                1,
+                60
+            ],
+            "boolParams": [
+                true
+            ],
+            "type": "findOddball"
+        },
+        {
+            "instructions": [
+                "We're going to show you a grid of numbers.  Quickly find the one that is different than the others.  Press Ok to begin.",
+                "Quickly find the number that doesn't belong:"
+            ],
+            "stringParams": [],
+            "intParams": [
+                20,
+                2,
+                100
+            ],
+            "boolParams": [
+                false
+            ],
+            "type": "findOddball"
+        },
+        {
+            "instructions": [
+                "We're going to show you a grid of numbers.  Quickly find the one that is different than the others.  Press Ok to begin.",
+                "Quickly find the number that doesn't belong:"
+            ],
+            "stringParams": [],
+            "intParams": [
+                30,
+                2,
+                150
+            ],
+            "boolParams": [
+                false
+            ],
+            "type": "findOddball"
+        },
+        {
+            "instructions": [
+                "It's time to quiz on the words we gave you earlier.  Click Ok to continue.",
+                "Please click on each of the words from earlier.",
+                "Good work!  Press continue to move on."
+            ],
+            "stringParams": [
+                "Man",
+                "Woman",
+                "Dog",
+                "Cat",
+                "House",
+                "Ball",
+                "Sky",
+                "Boy",
+                "Girl",
+                "Ground",
+                "Bird",
+                "Floor",
+                "Ceiling",
+                "Bicycle",
+                "Foot",
+                "Hand",
+                "Walk",
+                "Run",
+                "Time",
+                "Space"
+            ],
+            "intParams": [
+                20
+            ],
+            "boolParams": [],
+            "type": "delayedRecallStringEnd"
+        }
+    ]
+}

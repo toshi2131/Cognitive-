@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c3950953f86145919ed2fd33f526546, type: 3}
+  m_Name: SpadesThree
+  m_EditorClassIdentifier: 
+  suit: 3
+  rank: 1
+  cardImage: {fileID: 4130640169021434097, guid: 5cfaa5721118cd54bb12ba0deed6cbaf, type: 3}
+  backImage: {fileID: -3173057495752149194, guid: da00c4260213140689e43e6714a0352b, type: 3}
